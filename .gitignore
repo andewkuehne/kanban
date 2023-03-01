@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/kanban-frontend/node_modules
+/kanban-frontend/.pnp
+/kanban-frontend/.pnp.js
+
+# testing
+/kanban-frontend/coverage
+
+# production
+/kanban-frontend/build
+
+# misc
+/kanban-frontend/.DS_Store
+/kanban-frontend/.env.local
+/kanban-frontend/.env.development.local
+/kanban-frontend/.env.test.local
+/kanban-frontend/.env.production.local
+
+/kanban-frontend/npm-debug.log*
+/kanban-frontend/yarn-debug.log*
+/kanban-frontend/yarn-error.log*

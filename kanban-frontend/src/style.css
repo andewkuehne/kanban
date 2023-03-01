@@ -1,0 +1,96 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+h1 {
+font-size: 36px;
+margin-bottom: 16px;
+}
+
+.task-list-container {
+display: flex;
+}
+
+.task-list {
+background-color: #fff;
+border-radius: 4px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+flex: 1;
+margin: 0 16px;
+padding: 16px;
+}
+
+.task {
+background-color: #f0f0f0;
+border-radius: 4px;
+margin-bottom: 8px;
+padding: 8px;
+}
+
+.task h2 {
+font-size: 20px;
+margin-bottom: 8px;
+}
+
+.task p {
+font-size: 16px;
+margin-bottom: 0;
+}
+
+.task button {
+background-color: #fff;
+border: none;
+color: #007bff;
+cursor: pointer;
+font-size: 14px;
+margin-left: 8px;
+outline: none;
+padding: 4px 8px;
+}
+
+.task button:hover {
+background-color: #007bff;
+color: #fff;
+}
+
+.new-task-form {
+background-color: #fff;
+border-radius: 4px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+margin-bottom: 16px;
+padding: 16px;
+}
+
+.new-task-form label {
+display: block;
+margin-bottom: 8px;
+}
+
+.new-task-form input {
+border-radius: 4px;
+border: 1px solid #ccc;
+font-size: 16px;
+padding: 8px;
+width: 100%;
+}
+
+.new-task-form button {
+background-color: #007bff;
+border: none;
+border-radius: 4px;
+color: #fff;
+cursor: pointer;
+font-size: 16px;
+margin-top: 8px;
+padding: 8px 16px;
+}
+
+.new-task-form button:hover {
+background-color: #0062cc;
+}
