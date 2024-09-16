@@ -8,10 +8,10 @@ WORKDIR /app
 COPY ./kanban-backend /app
 
 # Build the backend application
-RUN go build -o kanban-board-backend .
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o kanban-board-backend .
 
 # Install SQLite
-RUN apk add sqlite
+RUN apk add sqlite build-base
 
 # Create a new SQLite database
 RUN touch tasks.db
